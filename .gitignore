@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Environments and Secrets
+.env
+.env.local
+.env.*.local
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.streamlit/secrets.toml
+
+# Machine Learning & Pickles
+# These can be regenerated using train.py
+model/interaction_model.pkl
+model/features.pkl
+*.pkl
+*.h5
+*.pt
+*.onnx
+
+# Jupyter Notebooks and logs
+.ipynb_checkpoints
+*.log
